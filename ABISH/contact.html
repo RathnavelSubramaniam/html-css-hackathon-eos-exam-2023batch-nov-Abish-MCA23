@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Page</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../ABISH/CSS/contact.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <style>
+    .contact-form {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+    <header id="head">
+        <img src="../ABISH/image/logo2.jpg" alt="header img" id="head-img">
+        <h1>Abi'S Tourism</h1>
+        <nav id="nav">
+                
+            <li class="nav-menus"><a href="../ABISH/index.html">HOME</a></li>
+            <li class="nav-menus"> <a href="../ABISH/Places.html">PLACES</a></li>
+            <li class="nav-menus"> <a href="../ABISH/Hotel.html">HOTELS</a></li>
+            <li class="nav-menus"> <a href="../ABISH/contact.html"> CONTACT</a></li>
+        </nav>
+    </header>
+ <!-- body section -->
+ <section id="body-sec">
+    <!-- left bar for add -->
+    <div id="left-bar">
+        <div class="cards" style="width: 18rem;">
+            <img src="../ABISH/image/add1.jpg" class="card-img" alt="...">
+            <div class="card">
+              <h3 class="card-tit">Travel Agency</h3>
+              <p class="card-tex">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="https://www.makemytrip.com/promos/dh-amex-02042022.html?detail_image=no" class="btn">Book Now</a>
+            </div>
+          </div>
+          <div class="cards" style="width: 18rem;">
+            <img src="../ABISH/image/add2.jpg" class="card-img" alt="..." height="280px" width="220px">
+            <div class="card">
+              <h3 class="card-tit">Around The World</h3>
+              <p class="card-tex">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="https://www.makemytrip.com/promos/lemontree-21122022.html?detail_image=no" class="btn">Book Now</a>
+            </div>
+          </div>
+          </div>
+    </div>
+   <div class="container mt-5">
+     <div class="row">
+        <div class="col-md-6 offset-md-3">
+           <div class="contact-form">
+              <h2 class="text-center mb-4">Contact Us</h2>
+        <form action="https://formsubmit.co/abishafi70@gmail.com" method="POST">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Enter your message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div>
+  <h1 id="color">IN OUT TRIPS</h1>
+
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../ABISH/image/facebook.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../ABISH/image/tour2.jpg" href="https://getbootstrap.com/docs/5.3/components/carousel/" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../ABISH/image/desert.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+ 
+</div>
+<div>
+  <ul class="social-icons">
+    <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+    <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+    <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+    <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
+</ul>
+</div>
+<footer>
+  &copy; copyright 2023 Abish Mohamed
+</footer>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
